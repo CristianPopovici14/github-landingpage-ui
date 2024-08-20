@@ -7,6 +7,7 @@
     }
     .ft-mv {
         width: fit-content !important;
+        margin-right: 16px;
     }
 }
 
@@ -87,11 +88,10 @@ div {
 .ft-mv {
     height: fit-content;
     width: 100%;
-    margin-right: 16px;
 }
 
 .f-button {
-    margin: 0 10px;
+    margin-left: 10px;
     height: 32px;
     color: white;
     padding: 4px 12px;
