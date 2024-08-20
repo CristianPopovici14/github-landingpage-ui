@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
     <link rel="mask icon" href="https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg">
     <link rel="icon" href="https://github.githubassets.com/favicons/favicon-dark.svg">
     <title>GitHub: Let’s build from here · GitHub</title>
 </head>
 <body class="home-campaing">
     <header role="banner">
-        <div>
+        <div class="ft-mv">
             <div class="mobile-version">
                 <button>
                     <div class="menu-am">
@@ -20,7 +20,7 @@
                     </div>
                 </button>
             </div>
-            <a href="">
+            <a href="" style="height: 32px;">
                 <img src="https://github.githubassets.com/favicons/favicon-dark.svg" alt="github-logo">
             </a>
             <div class="r-align mobile-version">
@@ -31,11 +31,40 @@
             <nav>
                 <ul>
                     <li>
-                        <button>Product</button>
+                        <button class="nav-button">Product <img class="icon" src="./icons/down.png" alt=""></button>
                     </li>
+                    <li>
+                        <button class="nav-button">Solution <img class="icon" src="./icons/down.png" alt=""></button>
+                    </li> 
+                    <li>
+                        <button class="nav-button">Resources <img class="icon" src="./icons/down.png" alt=""></button>
+                    </li> 
+                    <li>
+                        <button class="nav-button" style="white-space: nowrap;">Open Source <img class="icon" src="./icons/down.png" alt=""></button>
+                    </li> 
+                    <li>
+                        <button class="nav-button">Enterprise <img class="icon" src="./icons/down.png" alt=""></button>
+                    </li> 
+                    <li>
+                        <button class="nav-button">Pricing</button>
+                    </li>            
                 </ul>
             </nav>
-            <div class="r-align"></div>
+            <div class="r-align">
+                <button class="search-button">
+                    <div class="l-align">
+                        <img src="icons/search.png" alt="" style="width: 16px; height: 16px;">
+                    </div>
+                    <div class="l-align hid-md">
+                        <span style="white-space: nowrap; padding: 0 10px">Search or jump to...</span>
+                    </div>
+                    <div class="r-align hid-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
+                    </div>
+                </button>
+                <a class="f-button" style="border: 0;" href="">Sign in</a>
+                <a class="f-button" href="">Sign up</a>
+            </div>
         </div>
     </header>
 </body>

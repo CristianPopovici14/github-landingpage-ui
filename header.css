@@ -1,0 +1,156 @@
+@media (min-width: 1012px) {
+    .mobile-version {
+        display: none !important;
+    }
+    .desktop-version {
+        display: flex !important;
+    }
+    .ft-mv {
+        width: fit-content !important;
+    }
+}
+
+@media (max-width: 1280px) {
+    .hid-md {
+        display: none !important;
+    }
+    .search-button {
+        width: fit-content !important;
+    }
+}    
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-campaing {
+    background-color: #0d1117;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+}
+
+header > div {
+    display: flex;
+    width: 100%;
+}
+
+button {
+    height: 100%;
+    background-color: #00000000;
+    border: 0;
+}
+
+div {
+    align-content: center;
+}
+
+.menu-am {
+    height: 100%;
+    display: flexbox;
+    align-content: center;
+}
+
+.wl {
+    width: 20px;
+    height: 2px;
+    margin: 4px 0;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.r-align {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.l-align {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+}
+
+.ft-mv > div {
+    width: 100%;
+}
+
+.ft-mv {
+    height: fit-content;
+    width: 100%;
+    margin-right: 16px;
+}
+
+.f-button {
+    margin: 0 10px;
+    height: 32px;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 8px;
+    white-space: nowrap;
+    text-decoration: none;
+    align-content: center;
+    border: .1px solid white;
+    font: normal 14px/1 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.desktop-version {
+    display: none;
+}
+
+nav {
+    align-content: center;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    display: flex;
+}
+
+.nav-button {
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 8px;
+}
+
+.icon {
+    margin: 6px;
+    height: 10px;
+}
+
+.nav-button:hover {
+    color: #C9CBCF;
+}
+
+.nav-button:hover > .icon {
+    margin-top: 10px;
+}
+
+.search-button {
+    width: 320px;
+    height: 32px;
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #C9CBCF;
+    background-color: #293141;
+    padding: 8px;
+    border-radius: 8px;
+    border: .1px solid #57606A;
+}
