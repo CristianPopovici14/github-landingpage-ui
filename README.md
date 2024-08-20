@@ -2,6 +2,10 @@
   GitHub landingpage UI
 </h1>
 
+## Preview
+
+Press [here](https://cristianpopovici14.github.io/github-landingpage-ui/) to preview
+
 ## About
 
-GitHub landingpage UI is a project where I try to remake the GitHub landingpage UI with only HTML, CSS and JS. I'm doing this projects to improve my frontend skills.
+GitHub landing page UI is a project where I try to remake the GitHub landing page UI with only HTML, CSS and JS. I'm doing this project to improve my front-end skills.
