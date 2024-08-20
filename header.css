@@ -26,6 +26,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .home-campaing {
     background-color: #0d1117;
 }
@@ -91,11 +95,11 @@ div {
 }
 
 .f-button {
-    margin-left: 10px;
+    margin-left: 20px;
     height: 32px;
     color: white;
     padding: 4px 12px;
-    border-radius: 8px;
+    border-radius: 0.375rem;
     white-space: nowrap;
     text-decoration: none;
     align-content: center;
@@ -117,6 +121,7 @@ ul {
 
 li {
     display: flex;
+    position: relative;
 }
 
 .nav-button {
@@ -142,6 +147,48 @@ li {
     margin-top: 10px;
 }
 
+.ns-product:hover > .nm-product {
+    display: flex;
+}
+
+.nm-product {
+    border-radius: 0.375rem;
+    width: 520px;
+    height: 598px;
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: -15px;
+    padding: 24px 0;
+}
+
+.vl {
+    width: 1px;
+    height: 520px;
+    background-color: #E0E5E9;
+}
+
+.mi {
+    color: #57606A;
+    fill: currentColor;
+    margin: 0 16px 0 0;
+}
+
+.mt {
+    font-size: 16px
+}
+
+.ml {
+    text-decoration: none;
+    color: black;
+}
+
+.mp {
+    font-size: 14px;
+    color: #57606A;
+}
+
 .search-button {
     width: 320px;
     height: 32px;
@@ -152,6 +199,6 @@ li {
     color: #C9CBCF;
     background-color: #293141;
     padding: 8px;
-    border-radius: 8px;
+    border-radius: 0.375rem;
     border: .1px solid #57606A;
 }
