@@ -154,7 +154,69 @@ li {
 .nm-product {
     border-radius: 0.375rem;
     width: 520px;
-    height: 598px;
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: -15px;
+    padding: 24px 0;
+}
+
+.ns-solutions:hover > .nm-solutions {
+    display: flex;
+    flex-direction: column;
+}
+
+.nm-solutions {
+    border-radius: 0.375rem;
+    width: 320px;
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: -15px;
+    padding: 24px 0;
+}
+
+.ns-resources:hover > .nm-resources {
+    display: flex;
+}
+
+.nm-resources {
+    border-radius: 0.375rem;
+    width: 520px;
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: -15px;
+    padding: 24px 0;
+}
+
+.ns-opensource:hover > .nm-opensource {
+    display: flex;
+    flex-direction: column;
+}
+
+.nm-opensource {
+    border-radius: 0.375rem;
+    width: 320px;
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: -15px;
+    padding: 24px 0;
+}
+
+.ns-enterprise:hover > .nm-enterprise {
+    display: flex;
+    flex-direction: column;
+}
+
+.nm-enterprise {
+    border-radius: 0.375rem;
+    width: 320px;
     background-color: white;
     display: none;
     position: absolute;
@@ -165,7 +227,13 @@ li {
 
 .vl {
     width: 1px;
-    height: 520px;
+    background-color: #E0E5E9;
+}
+
+.hl {
+    margin: 16px auto 16px auto;
+    height: 1px;
+    width: 86%;
     background-color: #E0E5E9;
 }
 
@@ -176,17 +244,46 @@ li {
 }
 
 .mt {
-    font-size: 16px
-}
-
-.ml {
     text-decoration: none;
+    font-size: 16px;
     color: black;
 }
 
+.mbl {
+    display: flex;
+    color:black;
+    text-decoration: none;
+    padding: 8px 0 16px 0;
+}
+
+.mbl:hover * {
+    color: #0969DA;
+}
+
 .mp {
+    text-decoration: none;
     font-size: 14px;
     color: #57606A;
+}
+
+.mul {
+    display: block;
+}
+
+.mul a {
+    padding: 8px 0;
+
+}
+
+.mul a:hover {
+    color: #0969DA;
+}
+
+.mult {
+    margin: 4px 0;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
 }
 
 .search-button {
