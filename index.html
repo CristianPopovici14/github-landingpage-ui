@@ -12,7 +12,7 @@
     <header role="banner">
         <div class="ft-mv">
             <div class="mobile-version">
-                <button>
+                <button onclick="mobileMenu()">
                     <div class="menu-am">
                         <div class="wl"></div>
                         <div class="wl"></div>
@@ -27,7 +27,7 @@
                 <a class="f-button" href="https://github.com/login">Sign in</a>
             </div>
         </div>
-        <div class="desktop-version">
+        <div class="desktop-menu-version" id="menu">
             <nav>
                 <ul>
                     <li>
@@ -327,7 +327,7 @@
                     </li>            
                 </ul>
             </nav>
-            <div class="r-align">
+            <div class="r-align ">
                 <button class="search-button">
                     <div class="l-align">
                         <img src="icons/search.png" alt="" style="width: 16px; height: 16px;">
@@ -345,7 +345,22 @@
         </div>
     </header>
     <script>
+        function mobileMenu() {    
+            const mainContent = document.getElementById('menu');
 
+            
+            
+            // Alterna entre o design original e o novo design
+            document.body.style.backgroundColor = "#252A2F"
+            if (mainContent.classList.contains('desktop-menu-version')) {
+                mainContent.classList.remove('desktop-menu-version');
+                mainContent.classList.add('mobile-menu-version');
+            } else {
+                document.body.style.backgroundColor = "#0d1117"
+                mainContent.classList.remove('mobile-menu-version');
+                mainContent.classList.add('desktop-menu-version');
+            }
+        }
 
     </script>
 </body>

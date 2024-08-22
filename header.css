@@ -2,7 +2,7 @@
     .mobile-version {
         display: none !important;
     }
-    .desktop-version {
+    .desktop-menu-version {
         display: flex !important;
     }
     .ft-mv {
@@ -46,6 +46,93 @@ header {
 header > div {
     display: flex;
     width: 100%;
+}
+
+.mobile-menu-version {
+    padding: 20px 28px 36px 20px;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 70px;
+    height: 100%;
+    width: 100%;
+}
+
+.mobile-menu-version div {
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+}
+
+.mobile-menu-version ul {
+    height: fit-content;
+    flex-direction: column;
+}
+
+.mobile-menu-version button {
+    height: fit-content;
+}
+
+.mobile-menu-version .nav-button {
+    color: #0d1117 !important;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 0;
+}
+
+.mobile-menu-version .ns-product:hover > .nm-product {
+    display: flex;
+}
+
+.mobile-menu-version .nm-product {
+    display: none;
+    position: relative;
+}
+
+.mobile-menu-version .ns-solutions:hover > .nm-solutions {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-menu-version .nm-solutions {
+    display: none;
+    position: relative;
+}
+
+.mobile-menu-version .ns-resources:hover > .nm-resources {
+    display: flex;
+}
+
+.mobile-menu-version .nm-resources {
+    display: none;
+    position: relative;
+}
+
+.mobile-menu-version .ns-opensource:hover > .nm-opensource {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-menu-version .nm-opensource {
+    display: none;
+    position: relative;
+}
+
+.mobile-menu-version .ns-enterprise:hover > .nm-enterprise {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-menu-version .nm-enterprise {
+    display: none;
+    position: relative;
+}
+
+.mobile-menu-version .vl {
+    display: none;
 }
 
 button {
@@ -107,7 +194,7 @@ div {
     font: normal 14px/1 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.desktop-version {
+.desktop-menu-version {
     display: none;
 }
 
