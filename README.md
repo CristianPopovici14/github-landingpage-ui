@@ -1,6 +1,4 @@
-<h1>
-  GitHub landingpage UI
-</h1>
+# GitHub landingpage UI
 
 ## Preview
 
